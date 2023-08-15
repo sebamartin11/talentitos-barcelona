@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Baloo+Bhaijaan+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+.tituloHome{
+    color: #f8e21d;
+    background-color: #005899;
+    font-family: 'Amaranth', sans-serif;
+    text-align: center;
+}
+
+.alHome {
+    height: 100vh;
+    margin-left: -7px;
+    background-position: center;
+    background-size: cover;
+    -webkit-animation: rebotar;
+    animation: rebotar;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+}
+@-webkit-keyframes rebotar {
+    0% {
+        opacity: 0;
+    }
+
+    1% {
+        transform: translateY(150px);
+        box-shadow: 0px 10px 10px 10px #000;
+    }
+}
+
+@keyframes rebotar {
+    0% {
+        opacity: 0;
+    }
+
+    1% {
+        transform: translateY(150px);
+        box-shadow: 0px 10px 10px 10px #000;
+    }
+}
+
+.imgHome{
+    width: 100%;
+    height: 100vh !important;
+    margin: -8px;
+}
+
+.arHome {
+    color: #005899;
+    padding: 100px;
+}
+
+.arHome h3 {
+    text-align: center;
+    color: #005899;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Amaranth", sans-serif;
+}
+.arHome h4 {
+    text-align: center;
+    color: #005899;
+    font-weight: bold;
+    font-family: "Amaranth", sans-serif;
+}
+
+.arHome p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    font-family: "Amaranth", sans-serif;
+}
+
+.arHome p::-moz-selection {
+    color: #005899;
+    background-color: #f8e21d;
+}
+
+.arHome p::selection {
+    color: #005899;
+    background-color: #f8e21d;
+}
+
+.titulo2Home{
+    color: #f8e21d;
+    background-color: #005899;
+    font-family: 'Amaranth', sans-serif;
+    text-align: center;
+}
+
+.homeDiv{
+    display: flex;
+    justify-content: center;
+}
+.imgIndumentaria{
+    width: 50vh;
+    height: 50vh;
+}
+
+.titulo3Home{
+    color: #f8e21d;
+    background-color: #005899;
+    font-family: 'Amaranth', sans-serif;
+    text-align: center;
+}
+
+@media screen and (min-width:1200px){  
+    .arHome {
+        color: #005899;
+        padding: 50px;
+    }
+
+}
+
+@media screen and (min-width:1024px){    
+    .arHome {
+        padding: 25px !important;
+    }
+
+    .row{
+        justify-content: center;
+    }
+
+    .alHome {
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imgHome{
+        height: 80vh !important;
+    }
+}
+
+@media screen and (min-width:992){    
+
+}
+@media screen and (max-width: 768px){
+    .row{
+        justify-content: center;
+    }
+    .alHome {
+        width: 70%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+    }
+    .imgHome{
+        height: 50vh !important;
+    }
+    
+}
+@media screen and (max-width: 576px) {
+    .arHome {
+        padding: 15px !important;
+    }
+
+    .arHome h3 {
+        font-size: 30px;
+    }
+
+    .arHome p {
+        font-size: 18px;
+
+    }
+    
+
+}
+@media screen and (max-width: 320px){
+    .arHome {
+        padding: 5px !important;
+    }
+
+    .row{
+        justify-content: center;
+    }
+
+    .alHome {
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+    }
+    .imgHome{
+        height: 40vh !important;
+    }
+
+    .arHome h3 {
+        font-size: 25px;
+    }
+
+    .arHome p {
+        font-size: 16px;
+
+    }
+}

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Baloo+Bhaijaan+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.tituloNosotros{
+    color: #f8e21d;
+    background-color: #005899;
+    font-family: 'Amaranth', sans-serif;
+    text-align: center;
+}
+
+
+
+.alNosotros {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    -webkit-animation: rebotar;
+    animation: rebotar;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+}
+
+@-webkit-keyframes rebotar {
+    0% {
+        opacity: 0;
+    }
+
+    1% {
+        transform: translateY(150px);
+        box-shadow: 0px 10px 10px 10px #000;
+    }
+}
+
+@keyframes rebotar {
+    0% {
+        opacity: 0;
+    }
+
+    1% {
+        transform: translateY(150px);
+        box-shadow: 0px 10px 10px 10px #000;
+    }
+}
+
+.imgNosotros{
+    width: 100%;
+    height: 111vh;
+    margin: -8px;
+}
+
+.arNosotros {
+    color: #005899;
+    height: 100%;
+}
+
+.arNosotros h2 {
+    text-align: center;
+    color: #005899;
+    font-weight: bold;
+    font-family: "Amaranth", sans-serif;
+}
+
+.arNosotros p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    font-family: "Amaranth", sans-serif;
+}
+
+.arNosotros p::-moz-selection {
+    color: #005899;
+    background-color: #f8e21d;
+}
+
+.arNosotros p::selection {
+    color: #005899;
+    background-color: #f8e21d;
+}
+
+@media screen and (max-width:1200px){    
+    .imgNosotros{
+        height: 153vh;
+    }
+
+}
+@media screen and (max-width:1024px){    
+    .alNosotros {
+        height: 100%;
+    }
+
+    .imgNosotros{
+        width: 100%;
+        height: 150vh;
+    }
+
+    .arNosotros{
+        height: 100%;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .alNosotros{
+        height: 100%;
+        padding-left: 5vh;
+    }
+
+    .imgNosotros{
+        width: 100%;
+        height: 80vh;
+    }
+
+    .arNosotros{
+        height: 100%;
+        margin: 5vh;
+        padding-left: 4vh;
+    }
+
+}
+@media screen and (max-width: 576px) {
+    .alNosotros{
+        height: 100%;
+        padding-left: 5vh;
+    }
+    .arNosotros{
+        height: 100%;
+        margin: 5vh;
+    }
+
+    .arNosotros p {
+        font-size: 18px;
+    }
+    .imgNosotros{
+        height: 60vh;
+        width: 100%;
+    }
+
+
+}
+@media screen and (max-width: 320px){
+    .alNosotros{
+        height: 100%;
+        padding-left: 5vh;
+    }
+    .arNosotros{
+        height: 100%;
+        margin: 5vh;
+    }
+
+    .arNosotros p {
+        font-size: 16px;
+    }
+    .imgNosotros{
+        height: 40vh;
+        width: 100%;
+    }
+
+}

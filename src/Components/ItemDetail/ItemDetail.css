@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Baloo+Bhaijaan+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.tituloDetalle{
+    color: #f8e21d;
+    background-color: #005899;
+    font-family: 'Amaranth', sans-serif;
+    text-align: center;
+}
+
+.containerDetail{
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+}
+
+.divImage{
+    display: flex;
+    justify-content: center;
+}
+
+.detailImage{
+    width: 50vh;
+    height: 50vh;
+}
+
+.contentDetail h3{
+    color: #005899;
+    font-family: 'Amaranth', sans-serif;
+    text-align: center;
+}
+.contentDetail p{
+    color: #005899;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 25px;
+    text-align: left;
+}
+
+.titleDetail{
+    text-align: center;
+    color: #005899;
+    font-family: 'Amaranth', sans-serif;
+    text-align: center;
+    font-size: 60px;
+}

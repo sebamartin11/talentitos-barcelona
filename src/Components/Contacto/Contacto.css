@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Baloo+Bhaijaan+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+.tituloContacto{
+    color: #f8e21d;
+    background-color: #005899;
+    font-family: 'Amaranth', sans-serif;
+    text-align: center;
+}
+
+.alcon {
+    margin: 0px
+}
+
+.alcon .contacto {
+    padding: 0px;
+    width: 100%;
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    -webkit-animation: rebotar;
+            animation: rebotar;
+    -webkit-animation-duration: 10s;
+            animation-duration: 10s;
+}
+
+@keyframes rebotar {
+        0% {
+        opacity: 0;
+    }
+    1% {
+        transform: translateY(150px);
+        box-shadow: 0px 10px 10px 10px #000;
+    }
+}
+
+.alcon .ubicacion {
+    padding: 50px;
+    color: #005899;
+    font-family: "Amaranth", sans-serif;
+    font-weight: bold;
+}
+
+.alcon .ubicacion p {
+    font-size: 20px;
+}
+
+.alcon .ubicacion .icon {
+    font-size: 25px;
+    display: inline-block;
+}
+
+.alcon .ubicacion .map {
+    padding: 0px;
+    width: 100%;
+    height: 70vh;
+    border: groove #005899 5px !important;
+}
+
+.alcon .ubicacion h3 {
+    font-size: 35px !important;
+}
+
+.img-contacto{
+    height: 60vh;
+    margin: -8px;
+    margin-left: -15px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 10px;
+}
+
+.arcon, .arser {
+    color: #005899;
+    font-weight: bold;
+}
+
+.arcon h2 {
+        text-align: center;
+        font-family: "Amaranth", sans-serif;
+        font-weight: bold;
+        font-size: 35px;
+}
+
+.arcon p {
+    text-align: center;
+    font-family: "Amaranth", sans-serif;
+    font-size: 30px;
+}
+
+.field {
+    font-weight: bold;
+}
+
+.field label {
+    display: block;
+    font-size: 25px;
+    font-family: 'Amaranth', sans-serif;
+    color: #005899;
+    margin: 10px 0;
+}
+
+.field input {
+    display: block;
+    font-size: 20px;
+    font-family: 'Amaranth', sans-serif;
+    width: 100%;
+    padding: 10px;
+}
+
+.field textarea{
+    font-size: 20px;
+    font-family: 'Amaranth', sans-serif;
+    width: 100%;
+}
+
+input[type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-size: 20px;
+    font-family: 'Amaranth', sans-serif;
+    background-color: #005899;
+    color: #fff;
+    border: none
+}
+
+.botonSend{
+    display: block;
+    padding: 10px 100px !important;
+    font-size: 20px;
+    font-family: 'Amaranth', sans-serif;
+    background-color: #005899;
+    color: #fff;
+    border: none;
+}
+
+.botonSend:hover{
+    color: #f8e21d;
+    transition: 0.8s;
+}
+
+@media screen and (max-width:1200px){    
+    .alcon{
+        height: 100%;
+        padding-left: 5vh;
+    }
+
+    .alcon .ubicacion{
+        padding-top: 120px;
+    }
+
+    .img-contacto{
+        width: 100%;
+        height: 55vh;
+        margin-left: 0;
+    }
+
+    .field input{
+        width: 100%;
+    }
+
+    .field textarea{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:1024px){    
+    .alcon{
+        height: 100%;
+        padding-left: 5vh;
+    }
+
+    .alcon .ubicacion{
+        padding-top: 120px;
+    }
+
+    .img-contacto{
+        width: 100%;
+        height: 55vh;
+        margin-left: 0;
+    }
+
+    .field input{
+        width: 100%;
+    }
+
+    .field textarea{
+        width: 100%;
+    }
+
+
+}
+@media screen and (max-width: 768px){
+    .alcon{
+        height: 100%;
+        width: 100%;
+    }
+    .ubicacion{
+        text-align: center;
+    }
+    .alcon .ubicacion p{
+        font-size: 20px;
+    }
+
+    .img-contacto{
+        width: 100%;
+        height: 55vh;
+        margin-left: 0;
+    }
+    .arcon h2{
+        font-size: 30px;
+    }
+    .arcon p {
+        font-size: 20px;
+    }
+
+    .arcon{
+        margin: 0vh;
+        width: 100%;
+    }
+
+    .field label {
+        font-size: 20px;
+    }
+
+    .field input{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .field textarea{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 576px) {
+
+    .alcon{
+        height: 100%;
+        width: 100%;
+    }
+    .alcon .ubicacion p{
+        font-size: 16px;
+    }
+
+    .img-contacto{
+        width: 100%;
+        height: 40vh;
+        margin-left: 0;
+    }
+    .arcon h2{
+        font-size: 25px;
+    }
+    .arcon p {
+        font-size: 16px;
+    }
+
+    .arcon{
+        margin: 0vh;
+        width: 100%;
+    }
+
+    .field label {
+        font-size: 16px;
+    }
+
+    .field input{
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .field textarea{
+        width: 100%;
+    }
+
+
+}
+@media screen and (max-width: 320px){
+    
+    .alcon{
+        height: 100%;
+        width: 100%;
+    }
+    .alcon .ubicacion p{
+        font-size: 16px;
+    }
+
+    .img-contacto{
+        width: 100%;
+        height: 40vh;
+        margin-left: 0;
+    }
+    .arcon h2{
+        font-size: 25px;
+    }
+    .arcon p {
+        font-size: 16px;
+    }
+
+    .arcon{
+        margin: 0vh;
+        width: 100%;
+    }
+
+    .field label {
+        font-size: 16px;
+    }
+
+    .field input{
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .field textarea{
+        width: 100%;
+    }
+
+}

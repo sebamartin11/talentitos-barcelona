@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Baloo+Bhaijaan+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.tituloServicios{
+    color: #f8e21d;
+    background-color: #005899;
+    font-family: 'Amaranth', sans-serif;
+    text-align: center;
+}
+
+.alser {
+    height: 100%;
+    margin: -6px;
+    padding-right: 0px;
+    background-position: center;
+    background-size: cover;
+    -webkit-animation: rebotar;
+    animation: rebotar;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+}
+
+@keyframes rebotar {
+    0% {
+        opacity: 0;
+    }
+
+    1% {
+        transform: translateY(150px);
+        box-shadow: 0px 10px 10px 10px #000;
+    }
+}
+.imgServicios{
+    width: 100%;
+    height: 86vh;
+}
+
+.arser{
+    color: #005899;
+    font-weight: 600;
+    padding-top: 5px;
+    height: 100%;
+}
+.tituloServicios2{
+    text-align: center;
+    font-family: 'Amaranth', sans-serif;
+    font-weight: bold;
+}
+.parrafoServicios{
+    text-align: left;
+    font-family: 'Amaranth', sans-serif;
+    font-size: 20px;
+}
+
+
+
+@media screen and (max-width:1200px){    
+    .imgServicios{
+        height: 134vh;
+    }
+    .alser{
+        height: 100%;
+        margin: 0;
+    }
+
+    .arser{
+        height: 100%;
+        padding-left: 2vh;
+    }
+
+}
+@media screen and (max-width:1024px){    
+    .arser{
+        height: 100%;
+        padding-left: 2vh;
+    }
+    
+    .alser{
+        height: 100%;
+        padding-left: 2vh;
+    }
+
+    .imgServicios{
+        width: 100%;
+        height: 134vh;
+    }
+
+}
+@media screen and (max-width: 768px){
+    
+    .arser{
+        height: 100%;
+        padding-left: 5vh;
+    }
+    
+    .alser{
+        height: 100%;
+        margin: 5vh;
+        padding-left: 5vh;
+    }
+
+    .imgServicios{
+        width: 100%;
+        height: 100vh;
+    }
+
+}
+@media screen and (max-width: 576px) {
+    .alser{
+        height: 100%;
+        width: 100% !important;
+        margin: 5vh;
+    }
+
+    .arser{
+        height: 100%;
+    }
+
+    .arser p {
+        font-size: 18px;
+    }
+    .imgServicios{
+        height: 50vh;
+        width: 100%;
+        margin: 0;
+    }
+
+
+}
+@media screen and (max-width: 320px){
+    .alser{
+        height: 100%;
+        width: 100% !important;
+        margin: 5vh;
+    }
+
+    .arser{
+        height: 100%;
+    }
+
+    .arser p {
+        font-size: 16px;
+    }
+    .imgServicios{
+        height: 50vh;
+        width: 100%;
+        margin: 0;
+    }
+
+}

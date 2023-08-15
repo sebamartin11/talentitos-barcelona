@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Baloo+Bhaijaan+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.tituloJugadores{
+    color: #f8e21d;
+    background-color: #005899;
+    font-family: 'Amaranth', sans-serif;
+    text-align: center;
+}
+
+.sectionJugadores{
+    display: inline-block;
+}
+
+.cardJugadores{
+    margin: 10vh 5vh;
+}
+
+.divImg{
+    display: flex;
+    justify-content: center;
+}
+
+
+.jugadores{
+    height: 30vh;
+    width: 30vh;
+    top: 5vh;
+}
+
+.card-body{
+    color: #005899 !important;
+    text-align: center;
+    font-family: 'Amaranth', sans-serif;
+    font-weight: 600;
+}
+
+.jugador{
+    color: #f8e21d;
+    background-color: #005899;
+    font-weight: 500;
+    width: 60vh;
+}
+.btn-primary:hover{
+    background-color: #005899;
+    transition: 0.8s;
+}
+
+
+@media screen and (max-width:1200px){    
+    .jugador{
+        width: 55vh;
+    }
+
+}
+@media screen and (max-width:1024px){    
+    .cardJugadores{
+        margin: 2vh;
+        padding-left: 100px;
+    }
+    .jugador{
+        width: 55vh;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .cardJugadores{
+        margin: 2vh;
+        padding-left: 25px;
+    }
+    .jugador{
+        width: 50vh;
+    }
+
+}
+@media screen and (max-width: 576px) {
+    .sectionJugadores{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cardJugadores{
+        margin: 2vh;
+    }
+
+    .jugador{
+        width: 55vh;
+    }
+
+}
+@media screen and (max-width: 320px){
+    .sectionJugadores{
+        display: flex;
+        justify-content: center;
+    }
+
+    .jugador{
+        width: 40vh;
+    }
+}

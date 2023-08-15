@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body-css{
+  width: 100%;
+  background-color: #f7f4f4e6 !important;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 1.5vh;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #005899;
+  height: 10vh;
+  border-radius: 7px;
+}
+

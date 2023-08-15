@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Baloo+Bhaijaan+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.carousel-inner{
+    margin-top: -8px; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-item{
+    height: 85vh
+}
+
+.img-carousel{
+    height: 85vh;
+}
+
+@media screen and (min-width:1200px){  
+
+
+}
+
+@media screen and (min-width:1024px){    
+
+}
+
+@media screen and (min-width:992){    
+
+}
+@media screen and (max-width: 768px){
+
+    
+}
+@media screen and (max-width: 576px) {
+
+    .carousel-item{
+        height: 50vh
+    }
+    
+    .img-carousel{
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 320px){
+
+}
+

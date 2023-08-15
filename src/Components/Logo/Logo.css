@@ -1,0 +1,33 @@
+.logotalentitos{
+    height: 8vh;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.logotalentitos:hover{
+    transform: scale(1.1);
+    transition: all 0.9s;
+}
+
+@media screen and (min-width:1200px){  
+
+
+}
+
+@media screen and (min-width:1024px){    
+
+}
+
+@media screen and (min-width:992){    
+
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 576px) {
+
+}
+@media screen and (max-width: 320px){
+    .logotalentitos{
+        height: 8vh;
+    }
+}

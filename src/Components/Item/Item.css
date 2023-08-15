@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Baloo+Bhaijaan+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.sectionCards{
+    display: inline-block;
+    margin: 20px 70px;
+}
+
+.card-body{
+    color: #005899 !important;
+    text-align: center;
+    font-family: 'Amaranth', sans-serif;
+    font-weight: bold;
+}
+
+.link{
+    text-decoration: none !important; 
+}
+
+.btn{
+    color: #f8e21d;
+    background-color: #005899;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    /* margin: 15px ; */
+}
+.btn-primary:hover{
+    background-color: #005899;
+    transition: 0.8s;
+}
+
+.sponsors{
+    height: 30vh;
+    width: 30vh;
+}
+
+@media screen and (min-width:1200px){    
+
+}
+@media screen and (max-width:992){    
+
+}
+@media screen and (max-width: 768px){
+    .sectionCards{
+        padding-left: 4vh;
+
+    }
+}
+@media screen and (max-width: 576px) {
+    .sectionCards{
+        padding-left: 10vh;
+        margin: 10vh;
+    }
+
+}
+@media screen and (max-width: 320px){
+    .sectionCards{
+        padding-left: 9vh;
+        margin: 4vh;
+    }
+}
