@@ -13,7 +13,7 @@ const Socios = () => {
             .then((result) => {
                 Swal.fire({
                     title: "Gracias!",
-                    text: "Su consulta se envió correctamente!",
+                    text: "Su inscripción se envió correctamente!",
                     icon: "success",
                 });
                 form.current.reset();
@@ -42,11 +42,16 @@ const Socios = () => {
                                 <label>Apellido:</label>
                                 <input type="text" name="user_surname" required placeholder="Apellido" />
                                 <label>Fecha de nacimiento:</label>
-                                <input type="text" name="user_fecha" required placeholder="ej:29/01/1998" />
+                                <input type="date" name="user_fecha" required placeholder="ej:29/01/1998" />
                                 <label>Email:</label>
                                 <input type="email" name="user_email" required placeholder="suemail@talentitos.com" />
                                 <label name="user_tel">Teléfono:</label>
                                 <input type="number" name="user_tel" id="user_tel" required placeholder="ej:+34657892761"/>
+                                <label>Valor de inscripción (Transferencia Bancaria) o (Bizum):</label>
+                                <select name="user_dinero" className="dinero">
+                                    <option value="10€">10€</option>
+                                </select>
+                                <br />
                                 <br />
                                 <input type="submit" value="Hacerme Socio" className='botonSendSocios'/>
                             </form>
@@ -58,9 +63,10 @@ const Socios = () => {
                                 <div className="invalid-feedback">Marque esta casilla de verificación para continuar.</div>
                             </div>
                             <br />
+                            
                             <p>Cada socio que aporte dinero sera designado exclusivamente para los chicos que integran nuestro proyecto. Y en beneficio para los socios dispondrán de ventajas en todos los eventos de Talentitos, y además de muchos sorteos que se designaran por nuestra pagina de instagram (TalentitosBarcelona).</p>
                             <br />
-                            <p>Para realizar la transferencia bancaria, puede realizar el pago al siguiente número de cuenta: ES28 2100 2397 8807 0006 9344 (Caixabank).</p>
+                            <p>Para realizar la transferencia bancaria, puede realizar el pago al siguiente número de cuenta: ES65 2100 4929 1222 0018 2431 (Caixabank) o por +34 600 202 955 (Bizum).</p>
                             <br />
                         </aside>
                     </div>

@@ -43,20 +43,33 @@
 }
 @media screen and (max-width: 768px){
     .sectionCards{
-        padding-left: 4vh;
-
+        padding-left: 8vh;
     }
 }
 @media screen and (max-width: 576px) {
     .sectionCards{
-        padding-left: 10vh;
-        margin: 10vh;
+        margin: 40px;
+        margin-left:  60px;
     }
+}
 
+@media screen and (max-width: 425px){
+    .sectionCards{
+        margin: 0px;
+        margin-left:  20px;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 390px){
+    .sectionCards{
+        margin: 40px;
+        margin-left:  50px;
+        overflow: hidden;
+    }
 }
 @media screen and (max-width: 320px){
     .sectionCards{
-        padding-left: 9vh;
-        margin: 4vh;
+        margin-left: 25px;
+        overflow: hidden;
     }
 }

@@ -77,13 +77,22 @@
     color: #005899;
     background-color: #f8e21d;
 }
+input{
+    color: #005899;
+}
 
+.dinero{
+    width: 100%;
+    font-size: 25px;
+    color: #005899;
+}
 
 .form-group{
     font-size: 16px;
     text-align: left;
     font-family: "Amaranth", sans-serif;
 }
+
 
 .botonSendSocios{
     display: block;

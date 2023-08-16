@@ -135,7 +135,7 @@
     }
 }
 
-@media screen and (min-width:992){    
+@media screen and (min-width:992px){    
 
 }
 @media screen and (max-width: 768px){
@@ -149,13 +149,17 @@
         justify-content: center;
     }
     .imgHome{
-        height: 50vh !important;
+        height: 60vh !important;
     }
     
 }
 @media screen and (max-width: 576px) {
     .arHome {
         padding: 15px !important;
+    }
+
+    .imgHome{
+        height: 40vh !important;
     }
 
     .arHome h3 {

@@ -51,6 +51,8 @@ const Contacto = () => {
                         <form ref={form} onSubmit={sendEmail} className='field'>
                             <label>Nombre:</label>
                             <input type="text" name="user_name" required placeholder="Nombre" />
+                            <label>Apellido:</label>
+                            <input type="text" name="user_surname" required placeholder="Apellido" />
                             <label>Email:</label>
                             <input type="email" name="user_email" required placeholder="suemail@talentitos.com" />
                             <label name="user_tel">Movil:</label>

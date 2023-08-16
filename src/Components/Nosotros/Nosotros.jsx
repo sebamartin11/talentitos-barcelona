@@ -13,7 +13,7 @@ const Nosotros = () => {
                         <aside className="col-sm-12 col-md-12 col-lg-6 col-xl-6 arNosotros">
                             <h2>Quienes Somos?</h2>
                             <br />
-                            <p> Talentitos Barcelona comenzó con este proyecto en el año 2008 en Argentina, Buenos Aires. Con la ayuda de nuestro amigo Xavi Guzman ex portero del FC Barcelona decidimos mudarnos a España y continuar con este proyecto en territorio Español. Por lo tanto Desde el año 2010 estamos situados en Sant Feliu de Guixols, Girona, España.</p>
+                            <p> Talentitos Barcelona comenzó con este proyecto en el año 2008 en Argentina, Buenos Aires. Con la ayuda de nuestros amigos, Gilson De Oliveira y Xavi Guzman ex portero del FC Barcelona decidimos mudarnos a España y continuar con este proyecto en territorio Español. Por lo tanto Desde el año 2010 estamos situados en Sant Feliu de Guixols, Girona, España.</p>
                             <br />
                             <p> Talentitos Barcelona se enfoca en brindar oportunidades a jugadores que anhelan ser profesionales, con el objetivo principal de que cada chico cumpla su sueño de jugar al fútbol en el suelo europeo. Nos dedicamos a darle apoyo y logistica a cada jugador, consiguiendo pruebas tanto en el territorio Español e Italiano.</p>
                             <br />
