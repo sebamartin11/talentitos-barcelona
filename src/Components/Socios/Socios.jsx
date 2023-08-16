@@ -63,7 +63,6 @@ const Socios = () => {
                                 <div className="invalid-feedback">Marque esta casilla de verificación para continuar.</div>
                             </div>
                             <br />
-                            
                             <p>Cada socio que aporte dinero sera designado exclusivamente para los chicos que integran nuestro proyecto. Y en beneficio para los socios dispondrán de ventajas en todos los eventos de Talentitos, y además de muchos sorteos que se designaran por nuestra pagina de instagram (TalentitosBarcelona).</p>
                             <br />
                             <p>Para realizar la transferencia bancaria, puede realizar el pago al siguiente número de cuenta: ES65 2100 4929 1222 0018 2431 (Caixabank) o por +34 600 202 955 (Bizum).</p>
