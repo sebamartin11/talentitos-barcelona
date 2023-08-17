@@ -2,6 +2,7 @@ import "../ItemDetail/ItemDetail.css"
 import { useEffect } from "react";
 import { useNavigate, useParams } from 'react-router-dom'
 import useFirebase from '../../Hooks/useFirebase'
+import Layout from "../../Layout/Layout";
 
 
 const ItemDetail = () => {
@@ -46,7 +47,7 @@ const ItemDetail = () => {
                         </div>
                     </div>
                 </>
-            ): <h1 className='titleDetail'>Cargando...</h1>}
+            ):<Layout/>}
         </div>
     )
 }

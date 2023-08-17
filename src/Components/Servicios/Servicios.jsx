@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Servicios.css"
 import image4 from "./img-servicios1.jpg"
+import image5 from "./talentitos-campo.jpg"
+import image6 from "./img-gym.jpg"
 
 const Servicios = () => {
     return (
@@ -22,6 +24,12 @@ const Servicios = () => {
                     <aside className="col-sm-12 col-md-12 col-lg-6 col-xl-6 alser">
                         <img className="imgServicios" src={image4} alt="img-servicios" />
                     </aside>
+                    <div className="divServicios">
+                        <img className="imgServicios2" src={image5} alt="img-servicios" />
+                        <div className="divServicios3">
+                            <img className="imgServicios3" src={image6} alt="img-servicios" />
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>

@@ -36,7 +36,7 @@
 }
 
 .alcon .ubicacion {
-    padding: 50px;
+    padding: 120px;
     color: #005899;
     font-family: "Amaranth", sans-serif;
     font-weight: bold;
@@ -63,7 +63,8 @@
 }
 
 .img-contacto{
-    height: 60vh;
+    height: 85vh;
+    width: 100%;
     margin: -8px;
     margin-left: -15px;
 }
@@ -172,16 +173,17 @@ input[type="submit"] {
 @media screen and (max-width:1024px){    
     .alcon{
         height: 100%;
-        padding-left: 5vh;
+        padding-left: 0vh;
     }
 
-    .alcon .ubicacion{
-        padding-top: 120px;
+    .alcon .ubicacion {
+        padding: 70px;
+        padding-top: 150px;
     }
 
     .img-contacto{
         width: 100%;
-        height: 55vh;
+        height: 70vh;
         margin-left: 0;
     }
 

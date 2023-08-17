@@ -3,6 +3,7 @@ import "./Carousel.css"
 import image1 from "./img-01.jpg"
 import image2 from "./img-04.jpg"
 import image3 from "./img-05.JPG"
+import image4 from "./talentitos-mix.jpg"
 
 const Carousel = () => {
     return (
@@ -16,6 +17,9 @@ const Carousel = () => {
                 </div>
                 <div className="carousel-item">
                     <img src={image3} className= "img-carousel w-100" alt="img-talentitos3"/>
+                </div>
+                <div className="carousel-item">
+                    <img src={image4} className= "img-carousel w-100" alt="img-talentitos3"/>
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

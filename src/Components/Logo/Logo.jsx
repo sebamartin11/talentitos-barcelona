@@ -1,5 +1,5 @@
 import React from 'react';
-import Logotipo from "./img-03.jpg";
+import Logotipo from "./img-04.png";
 import "./Logo.css";
 import { Link } from 'react-router-dom';
 

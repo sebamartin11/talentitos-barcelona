@@ -4,7 +4,7 @@ import Swal from "sweetalert2";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faLocationDot, faPhone} from '@fortawesome/free-solid-svg-icons';
 import './Contacto.css'
-import contacto from './contacto.jpg'
+import contacto from './guixols.jpg'
 
 const Contacto = () => {
     

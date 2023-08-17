@@ -6,7 +6,7 @@ import ItemList from '../ItemList/ItemList'
 // img
 import image100 from '../../Assets/img-umbro.jpg'
 import image101 from '../../Assets/img-indumentaria.jpg'
-import image102 from '../../Assets/img-00.jpg'
+import image102 from '../../Assets/img-footer.png'
 import image103 from '../../Assets/img-m2a.jpg'
 import image104 from '../../Assets/img-tablita.jpg'
 import image105 from '../../Assets/img-abogado.jpg'

@@ -9,11 +9,12 @@
 }
 
 .carousel-item{
-    height: 85vh
+    height: 82vh
 }
 
 .img-carousel{
-    height: 85vh;
+    height: 82vh;
+    width: 100% !important;
 }
 
 @media screen and (min-width:1200px){  
