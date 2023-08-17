@@ -83,8 +83,8 @@ const Home = () => {
             <div className="homeDiv">
                 <img className="imgIndumentaria" src={image101} alt="img-indumentaria" />
             </div>
+            <h3 className="titulo3Home">Sponsors Talentitos</h3>
             <div className="divSponsors">
-                <h3 className="titulo3Home">Sponsors Talentitos</h3>
                 <ItemList value={data} data ={miSponsors} />
             </div>
         </div>

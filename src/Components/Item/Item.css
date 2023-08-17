@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Baloo+Bhaijaan+2:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-.sectionCards{
+.divSponsors{
     display: inline-block;
-    margin: 20px 70px;
+    margin: 40px;
+}
+.sectionCards{
+    display: flex;
+    justify-content: center;
 }
 
-.card-body{
+.card-body2{
     color: #005899 !important;
-    text-align: center;
     font-family: 'Amaranth', sans-serif;
     font-weight: bold;
+    text-align: center;
 }
 
 .link{
@@ -43,33 +47,38 @@
 }
 @media screen and (max-width: 768px){
     .sectionCards{
-        padding-left: 8vh;
+        padding-left: 10vh;
     }
 }
 @media screen and (max-width: 576px) {
-    .sectionCards{
-        margin: 40px;
-        margin-left:  60px;
+    .divSponsors{
+        display: inline-block;
+        margin: 50px 5px;
+    }
+
+    .sponsors{
+        height: 30vh;
+        width: 30vh;
     }
 }
 
-@media screen and (max-width: 425px){
-    .sectionCards{
-        margin: 0px;
-        margin-left:  20px;
-        overflow: hidden;
+@media screen and (min-width: 320px){
+    .divSponsors{
+        margin: 30px 40px;
     }
-}
-@media screen and (max-width: 390px){
-    .sectionCards{
-        margin: 40px;
-        margin-left:  50px;
-        overflow: hidden;
+
+    .sponsors{
+        height: 25vh;
+        width: 25vh;
     }
 }
 @media screen and (max-width: 320px){
-    .sectionCards{
-        margin-left: 25px;
-        overflow: hidden;
+    .divSponsors{
+        margin: 30px 15px;
+    }
+
+    .sponsors{
+        height: 25vh;
+        width: 25vh;
     }
 }

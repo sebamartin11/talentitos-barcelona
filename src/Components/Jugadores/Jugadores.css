@@ -80,11 +80,11 @@
     }
 
     .cardJugadores{
-        margin: 2vh;
+        margin: 40px;
     }
 
     .jugador{
-        width: 100%;
+        width: 50vh;
     }
 
 }

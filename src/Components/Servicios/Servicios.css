@@ -56,7 +56,7 @@
 
 @media screen and (max-width:1200px){    
     .imgServicios{
-        height: 134vh;
+        height: 133vh;
     }
     .alser{
         height: 100%;
@@ -95,8 +95,8 @@
     
     .alser{
         height: 100%;
-        margin: 5vh;
-        padding-left: 5vh;
+        margin: 0vh;
+        padding-left: 0vh;
     }
 
     .imgServicios{
@@ -109,7 +109,7 @@
     .alser{
         height: 100%;
         width: 100% !important;
-        margin: 5vh;
+        margin: 0vh;
     }
 
     .arser{
@@ -119,10 +119,10 @@
     .arser p {
         font-size: 18px;
     }
+
     .imgServicios{
-        height: 50vh;
+        height: 80vh;
         width: 100%;
-        margin: 0;
     }
 
 
@@ -131,7 +131,6 @@
     .alser{
         height: 100%;
         width: 100% !important;
-        margin: 5vh;
     }
 
     .arser{
@@ -142,9 +141,8 @@
         font-size: 16px;
     }
     .imgServicios{
-        height: 50vh;
+        height: 60vh;
         width: 100%;
-        margin: 0;
     }
 
 }
