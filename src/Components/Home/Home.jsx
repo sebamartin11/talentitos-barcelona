@@ -62,7 +62,7 @@ const Home = () => {
                         <aside className="col-sm-12 col-md-12 col-lg-6 col-xl-6 alHome">
                             <img className="imgHome" src={image102} alt="img-home" />
                         </aside>
-                        <aside className="col-sm-12 col-md-12 col-lg-6 col-xl-6 arHome">
+                        <aside className="col-sm-12 col-md-12 col-lg-6 col-xl-6 arHome ">
                             <h3><u>Sobre Talentitos Barcelona</u></h3>
                             <p>Este proyecto ofrecerá mejores oportunidades y formación futbolística para jugadores de la ciudad y sus alrededores.</p>
                             <br />

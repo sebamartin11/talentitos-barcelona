@@ -9,7 +9,7 @@ const Jugadores = () => {
         <div>
             <h1 className="tituloJugadores">Jugadores Talentitos</h1>
             {jugadores.map((jugador, index) => (
-                <section className="sectionJugadores" key={index}>
+                <section className="sectionJugadores" key={index} data-aos="flip-left">
                     <div className="cardJugadores">
                         <div className="divImg">
                             <img src={jugador.img} className="jugadores" alt={jugador.nombre} />

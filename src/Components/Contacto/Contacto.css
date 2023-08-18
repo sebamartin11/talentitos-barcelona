@@ -148,17 +148,17 @@ input[type="submit"] {
 @media screen and (max-width:1200px){    
     .alcon{
         height: 100%;
-        padding-left: 5vh;
+        margin: 0;
     }
 
     .alcon .ubicacion{
-        padding-top: 120px;
+        padding-top: 140px;
     }
 
     .img-contacto{
         width: 100%;
-        height: 55vh;
-        margin-left: 0;
+        height: 80vh;
+        margin-left: -35px;
     }
 
     .field input{
@@ -183,7 +183,7 @@ input[type="submit"] {
 
     .img-contacto{
         width: 100%;
-        height: 70vh;
+        height: 80vh;
         margin-left: 0;
     }
 
@@ -201,9 +201,11 @@ input[type="submit"] {
     .alcon{
         height: 100%;
         width: 100%;
+        padding-left: 6vh;
     }
-    .ubicacion{
+    .alcon .ubicacion{
         text-align: center;
+        padding-top: 140px;
     }
     .alcon .ubicacion p{
         font-size: 20px;
@@ -211,8 +213,9 @@ input[type="submit"] {
 
     .img-contacto{
         width: 100%;
-        height: 55vh;
+        height: 80vh;
         margin-left: 0;
+        margin-right: 0;
     }
     .arcon h2{
         font-size: 30px;
@@ -246,14 +249,18 @@ input[type="submit"] {
         height: 100%;
         width: 100%;
     }
+
+    .alcon .ubicacion{
+        padding-top: 100px;
+    }
     .alcon .ubicacion p{
         font-size: 16px;
     }
 
     .img-contacto{
         width: 100%;
-        height: 40vh;
-        margin-left: 0;
+        height: 60vh;
+        margin-left: -10px;
     }
     .arcon h2{
         font-size: 25px;
@@ -294,8 +301,8 @@ input[type="submit"] {
 
     .img-contacto{
         width: 100%;
-        height: 40vh;
-        margin-left: 0;
+        height: 45vh;
+        margin-left: -10px;
     }
     .arcon h2{
         font-size: 25px;

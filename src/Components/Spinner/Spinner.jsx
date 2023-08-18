@@ -1,29 +1,19 @@
 import React from "react";
-import { GlobalProvider } from "../../Context/GlobalContext";
+import { useGlobalProvider } from "../../Context/GlobalContext";
 
 const Spinner = () => {
-    const { loading } = GlobalProvider();
+    const { loading } = useGlobalProvider();
     return (
-    <>
-        {loading && (
-            <div className="w-100
-                            position-fixed
-                            top-0 
-                            left-0
-                            bg-red
-                            d-flex 
-                            align-items-center 
-                            justify-content-center 
-                            full-height"
-                    style={{zIndex:100}}
-                >
-                <div className="spinner-grow" style={{ width: "3rem", height: "3rem" }}>
-                    <span className="visually-hidden">Cargando...</span>
+        <>
+            {loading && (
+                <div className="w-100 position-fixed top-0 left-0 bg-light d-flex align-items-center justify-content-center full-height" style={{zIndex:100}}>
+                    <div className="spinner-grow" style={{ width: "3rem", height: "3rem" }}>
+                        <span className="visually-hidden">Cargando...</span>
+                    </div>
                 </div>
-            </div>
-            )}
-    </>
-);
+                )}
+        </>
+    );
 };
 
 export default Spinner;

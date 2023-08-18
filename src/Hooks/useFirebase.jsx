@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react'
 import { db } from '../Firebase/Firebase.js'
 import { collection, getDocs, doc, getDoc } from 'firebase/firestore'
-import { GlobalProvider } from "../Context/GlobalContext";
+import { useGlobalProvider } from "../Context/GlobalContext";
 
 const useFirebase = () => {
     const [jugadores, setJugadores] = useState([])
     const [jugador, setJugador] = useState(null);
 
-    const {setLoading} = GlobalProvider()
+    const {setLoading} = useGlobalProvider()
 
     useEffect(() => {
         

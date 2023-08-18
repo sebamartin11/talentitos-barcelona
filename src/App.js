@@ -15,6 +15,7 @@ import Error404 from './Components/Error404/Error404';
 import GlobalState from './Context/GlobalContext';
 import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer';
 import Layout from './Layout/Layout'
+import ButtonToTop from './Components/ButtonToTop/ButtonToTop';
 
 function App() {
   return (
@@ -25,9 +26,11 @@ function App() {
             <header className="App-header">
               <Navbar/>
               <Carousel/>
+            <ButtonToTop/>
             </header>  
             <main>
               <Routes>
+                
                 <Route path='/' element={<Home/>}/>
                 <Route path='/jugadores' element={<Jugadores/>}/>
                 <Route path='/itemDetail/:id' element={<ItemDetailContainer/>}/>

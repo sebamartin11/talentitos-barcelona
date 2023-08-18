@@ -24,7 +24,6 @@ const Footer = () => {
                         <Link to={"https://www.facebook.com/hector.c.nunez"} className="redes"><FontAwesomeIcon icon = {faFacebook}/></Link>
                         <Link to={"https://www.instagram.com/talentos_barcelona"} className="redes"><FontAwesomeIcon icon = {faInstagram}/></Link>
                         <Link to={"https://wa.me/+34692224731"} className="redes"><FontAwesomeIcon icon = {faWhatsapp}/></Link>
-
                     </div>
                 </div>
             </div>

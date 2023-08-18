@@ -14,12 +14,12 @@ html{
 }
 
 body::-webkit-scrollbar {
-  width: 1.5vh;
+  width: 1vh;
 }
 
 body::-webkit-scrollbar-thumb {
   background-color: #005899;
   height: 10vh;
-  border-radius: 7px;
+  border-radius: 10px;
 }
 

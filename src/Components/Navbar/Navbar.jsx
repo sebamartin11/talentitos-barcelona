@@ -16,22 +16,22 @@ const Navbar = () => {
                             <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/jugadores">Jugadores</NavLink>
+                            <NavLink className="nav-link" to={"/jugadores"}>Jugadores</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/social">Social</NavLink>
+                            <NavLink className="nav-link" to={"/social"}>Social</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/nosotros">Nosotros</NavLink>
+                            <NavLink className="nav-link" to={"/nosotros"}>Nosotros</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/servicios">Servicios</NavLink>
+                            <NavLink className="nav-link" to={"/servicios"}>Servicios</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="contacto">Contacto</NavLink>
+                            <NavLink className="nav-link" to={"/contacto"}>Contacto</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/socios">Socios</NavLink>
+                            <NavLink className="nav-link" to={"/socios"}>Socios</NavLink>
                         </li>
                     </ul>
                 </div>

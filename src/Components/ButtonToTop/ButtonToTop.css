@@ -1,0 +1,32 @@
+.button-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.button-to-top.visible {
+    opacity: 1;  
+}
+
+.subir {
+    height: 40px;
+    width: 40px;
+    background-color: #005899;
+    color: #f8e21d;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.subir:hover {
+    color: #fff;
+    transition: 0.8s;
+}
