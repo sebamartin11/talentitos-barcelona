@@ -14,19 +14,17 @@ import Footer from './Components/Footer/Footer';
 import Error404 from './Components/Error404/Error404';
 import GlobalState from './Context/GlobalContext';
 import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer';
-import Layout from './Layout/Layout'
 import ButtonToTop from './Components/ButtonToTop/ButtonToTop';
 
 function App() {
   return (
     <GlobalState>
-      <Layout>
         <Router>
           <div className="body-css">
             <header className="App-header">
               <Navbar/>
               <Carousel/>
-            <ButtonToTop/>
+              <ButtonToTop/>
             </header>  
             <main>
               <Routes>
@@ -47,7 +45,7 @@ function App() {
             </footer>
           </div>
         </Router>
-      </Layout>
+
     </GlobalState>
   );
 }

@@ -47,7 +47,7 @@ const ItemDetail = () => {
                         </div>
                     </div>
                 </>
-            ):<Layout/>}
+            ): <Layout/>}
         </div>
     )
 }

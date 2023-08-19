@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState } from 'react'
 
 const GlobalContext = createContext()
 
-export const useGlobalProvider = () => useContext(GlobalContext)
+export const GlobalProvider = () => useContext(GlobalContext)
 
 const GlobalState = ({children}) => {
 
