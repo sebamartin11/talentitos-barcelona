@@ -129,6 +129,7 @@
         height: 100%;
         padding-left: 2vh;
     }
+    
 
     .imgServicios{
         width: 100%;
@@ -176,6 +177,7 @@
         display: block;
         padding-left: 0vh;
         padding-right: 0vh;
+        margin-top: 0;
     }
     .imgServicios2{
         width: 100%;
@@ -216,6 +218,7 @@
         display: block;
         padding-left: 0vh;
         padding-right: 0vh;
+        margin-top: 0;
     }
 
     .imgServicios2{
@@ -256,6 +259,7 @@
         display: block;
         padding-left: 0vh;
         padding-right: 0vh;
+        margin-top: 0;
     }
     .imgServicios2{
         width: 100%;
